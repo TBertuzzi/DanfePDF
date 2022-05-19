@@ -7,6 +7,10 @@ O Projeto foi refatorado e convertido para funcionar com .net Standard a partir 
 
 A biblioteca PdfClown.NetStandard é utilizada para a escrita dos arquivos em PDF.
 
+|Name|Info|
+| ------------------- | :------------------: |
+|DanfePDF|[![NuGet](https://buildstats.info/nuget/DanfePDF)](https://www.nuget.org/packages/DanfePDF/)|
+
 Exemplo de uso:
 ```csharp
 
