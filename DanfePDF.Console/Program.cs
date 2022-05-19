@@ -9,12 +9,12 @@ namespace DanfePDF.Console
         static void Main(string[] args)
         {
 
-            var modelo = DanfeViewModelCreator.CriarDeArquivoXml(@"C:\Users\thiag\Downloads\29201226796739000226550020000000071956807210.xml");
+            var modelo = DanfeViewModelCreator.CriarDeArquivoXml(@"seu xml");
 
             using (var danfe = new Danfe(modelo))
             {
                 danfe.Gerar();
-                danfe.Salvar(@"C:\Users\thiag\Downloads\danfe.pdf");
+                danfe.Salvar(@"saida");
             }
         }
     }
