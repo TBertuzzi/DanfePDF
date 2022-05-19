@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+	<Authors>tbertuzzi</Authors>
+    <Company>KBits</Company>
+    <Copyright>Copyright ©2022 KBits</Copyright>
+    <PackageLicenseUrl>http://opensource.org/licenses/MS-PL</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/TBertuzzi/DanfePDF</PackageProjectUrl>
+    <PackageTags>danfe danfepdf danfepdfsharp danfepdfconverter danfeconverter</PackageTags>
+    <PackageReleaseNotes>added DBConnection</PackageReleaseNotes>
+    <Description>.net core pdf converter</Description>
+    <PackageIconUrl></PackageIconUrl>
+    <RepositoryUrl>https://github.com/TBertuzzi/DanfePDF</RepositoryUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <PackageVersion>1.0.1</PackageVersion>
+    <PackageIcon>fatura.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DanfePDF.Console\**" />
+    <EmbeddedResource Remove="DanfePDF.Console\**" />
+    <None Remove="DanfePDF.Console\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resource\fatura.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PdfClown.NetStandard" Version="0.2.0-beta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\fatura.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </Resource>
+  </ItemGroup>
+
+</Project>

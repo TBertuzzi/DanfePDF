@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DanfePDF", "DanfePDF.csproj", "{7E54A9D1-1C82-4D67-BF44-D5D875EA356A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DanfePDF.Console", "DanfePDF.Console\DanfePDF.Console.csproj", "{A4352F45-8BE1-4CC2-A12E-4AAD9C90F705}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E54A9D1-1C82-4D67-BF44-D5D875EA356A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E54A9D1-1C82-4D67-BF44-D5D875EA356A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E54A9D1-1C82-4D67-BF44-D5D875EA356A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E54A9D1-1C82-4D67-BF44-D5D875EA356A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4352F45-8BE1-4CC2-A12E-4AAD9C90F705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4352F45-8BE1-4CC2-A12E-4AAD9C90F705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4352F45-8BE1-4CC2-A12E-4AAD9C90F705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4352F45-8BE1-4CC2-A12E-4AAD9C90F705}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {911BCEB4-A429-4BF2-B7A2-2A33886BF089}
+	EndGlobalSection
+EndGlobal
