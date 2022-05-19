@@ -42,7 +42,7 @@ namespace DanfePDF.Modelo
                 var emit = empresa as Emitente;
                 model.IM = emit.IM;
                 model.CRT = emit.CRT;
-                model.NomeFantasia = emit.xFant;
+                model.NomeFantasia = emit.xNome;
             }
 
             return model;

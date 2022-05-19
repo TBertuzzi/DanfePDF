@@ -185,7 +185,7 @@ namespace DanfePDF.Esquemas.NFe
     [XmlType(AnonymousType = true, Namespace = Namespaces.NFe)]
     public partial class Emitente : Empresa
     {
-        public string xFant { get; set; }
+        public string xNome { get; set; }
         public string IM { get; set; }
         public string CNAE { get; set; }
 
