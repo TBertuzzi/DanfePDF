@@ -6,55 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="fonts\afm\Courier-Bold.afm" />
-    <None Remove="fonts\afm\Courier-BoldOblique.afm" />
-    <None Remove="fonts\afm\Courier-Oblique.afm" />
-    <None Remove="fonts\afm\Courier.afm" />
-    <None Remove="fonts\afm\Helvetica-Bold.afm" />
-    <None Remove="fonts\afm\Helvetica-BoldOblique.afm" />
-    <None Remove="fonts\afm\Helvetica-Oblique.afm" />
-    <None Remove="fonts\afm\Helvetica.afm" />
-    <None Remove="fonts\afm\Symbol.afm" />
-    <None Remove="fonts\afm\Times-Bold.afm" />
-    <None Remove="fonts\afm\Times-BoldItalic.afm" />
-    <None Remove="fonts\afm\Times-Italic.afm" />
-    <None Remove="fonts\afm\Times-Roman.afm" />
-    <None Remove="fonts\afm\ZapfDingbats.afm" />
-    <None Remove="fonts\AGL20.scsv" />
-    <None Remove="fonts\cff\ExpertCharset" />
-    <None Remove="fonts\cff\ExpertSubsetCharset" />
-    <None Remove="fonts\cff\ISOAdobeCharset" />
-    <None Remove="fonts\cff\StandardStrings" />
-    <None Remove="fonts\cmap\Identity-H" />
-    <None Remove="fonts\cmap\Identity-V" />
+    <Compile Remove="fonts\**" />
+    <EmbeddedResource Remove="fonts\**" />
+    <None Remove="fonts\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="fonts\afm\Courier-Bold.afm" />
-    <EmbeddedResource Include="fonts\afm\Courier-BoldOblique.afm" />
-    <EmbeddedResource Include="fonts\afm\Courier-Oblique.afm" />
-    <EmbeddedResource Include="fonts\afm\Courier.afm" />
-    <EmbeddedResource Include="fonts\afm\Helvetica-Bold.afm" />
-    <EmbeddedResource Include="fonts\afm\Helvetica-BoldOblique.afm" />
-    <EmbeddedResource Include="fonts\afm\Helvetica-Oblique.afm" />
-    <EmbeddedResource Include="fonts\afm\Helvetica.afm" />
-    <EmbeddedResource Include="fonts\afm\Symbol.afm" />
-    <EmbeddedResource Include="fonts\afm\Times-Bold.afm" />
-    <EmbeddedResource Include="fonts\afm\Times-BoldItalic.afm" />
-    <EmbeddedResource Include="fonts\afm\Times-Italic.afm" />
-    <EmbeddedResource Include="fonts\afm\Times-Roman.afm" />
-    <EmbeddedResource Include="fonts\afm\ZapfDingbats.afm" />
-    <EmbeddedResource Include="fonts\AGL20.scsv" />
-    <EmbeddedResource Include="fonts\cff\ExpertCharset" />
-    <EmbeddedResource Include="fonts\cff\ExpertSubsetCharset" />
-    <EmbeddedResource Include="fonts\cff\ISOAdobeCharset" />
-    <EmbeddedResource Include="fonts\cff\StandardStrings" />
-    <EmbeddedResource Include="fonts\cmap\Identity-H" />
-    <EmbeddedResource Include="fonts\cmap\Identity-V" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\DanfePDF.csproj" />
+    <PackageReference Include="DanfePDF" Version="1.0.2" />
   </ItemGroup>
 
 </Project>

@@ -13,11 +13,11 @@
     <Description>.net core pdf converter</Description>
     <PackageIconUrl></PackageIconUrl>
     <RepositoryUrl>https://github.com/TBertuzzi/DanfePDF</RepositoryUrl>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
-    <AssemblyVersion>1.0.0.1</AssemblyVersion>
-    <FileVersion>1.0.0.1</FileVersion>
-    <PackageVersion>1.0.1</PackageVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.2</Version>
+    <AssemblyVersion>1.0.0.2</AssemblyVersion>
+    <FileVersion>1.0.0.2</FileVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <PackageIcon>fatura.png</PackageIcon>
   </PropertyGroup>
 
