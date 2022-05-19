@@ -14,8 +14,8 @@ A biblioteca PdfClown.NetStandard é utilizada para a escrita dos arquivos em PD
 Exemplo de uso:
 ```csharp
 
-using DanfeSharp;
-using DanfeSharp.Modelo;
+using DanfePDF.Esquemas.NFe;
+using DanfePDF.Modelo;
 
 //Cria o modelo a partir do arquivo Xml da NF-e.
 var modelo = DanfeViewModelCreator.CriarDeArquivoXml("nfe.xml");
@@ -30,7 +30,7 @@ var modelo = new DanfeViewModel()
     Emitente = new EmpresaViewModel()
     {
         CnpjCpf = "123456...",
-        Nome = "DanfeSharp Ltda",    
+        Nome = "DanfePDF",    
 	...
 
 
